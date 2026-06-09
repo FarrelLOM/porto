@@ -96,6 +96,7 @@ modern-portfolio/
   |- tailwind.config.js
   |- tes.py
   |- variants.js
+  |- vercel.json
 ```
 <!--- FOLDER_STRUCTURE_END --->
 
