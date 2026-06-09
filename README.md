@@ -62,26 +62,39 @@ modern-portfolio/
     |-- TestimonialSlider.jsx
     |-- TopLeftImg.jsx
     |-- Transition.jsx
+    |-- VisitCounter.jsx
     |-- WorkSlider.jsx
+  |- data/
+    |-- contact-email-draft-1779552962689.json
+    |-- contact-records.json
+    |-- visits.json
   |- pages/
     |-- about/
+    |-- api/
     |-- contact/
     |-- services/
     |-- testimonials/
     |-- work/
     |-- _app.jsx
+    |-- documentation_contact.jsx
+    |-- index-Sawarna_Pilar.jsx
     |-- index.jsx
   |- public/
   |- styles/
     |-- globals.css
+  |- .env
   |- .eslintrc.json
   |- .gitignore
+  |- .hintrc
+  |- cookies.txt
   |- netlify.toml
   |- next.config.js
+  |- package-lock-Sawarna_Pilar.json
   |- package-lock.json
   |- package.json
   |- postcss.config.js
   |- tailwind.config.js
+  |- tes.py
   |- variants.js
 ```
 <!--- FOLDER_STRUCTURE_END --->
@@ -130,7 +143,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [eslint](https://www.npmjs.com/package/eslint): 8.41.0
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.12.16
-- [next](https://www.npmjs.com/package/next): 15.5.10
+- [next](https://www.npmjs.com/package/next): 15.5.18
 - [postcss](https://www.npmjs.com/package/postcss): ^8.4.23
 - [react](https://www.npmjs.com/package/react): 18.2.0
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
