@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
@@ -7,49 +6,12 @@ import Avatar from "../components/Avatar";
 
 import { fadeIn } from "../variants";
 
-function VisitCounter() {
-  const [visits, setVisits] = useState(null);
-
-  useEffect(() => {
-    let mounted = true;
-    const inc = async () => {
-      try {
-        const res = await fetch('/api/visits', { method: 'POST' });
-        if (!res.ok) return;
-        const json = await res.json();
-        if (mounted) setVisits(json.count);
-      } catch (err) {
-        console.error('visit counter error', err);
-      }
-    };
-    inc();
-    return () => {
-      mounted = false;
-    };
-  }, []);
-
-  return visits === null ? '—' : visits.toLocaleString();
-}
-
-
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto relative">
-          {/* visit counter - center right */}
-          <div className="absolute top-1/2 right-0 transform -translate-y-1/2">
-            <div className="rounded-full bg-white/10 border border-white/20 backdrop-blur-md px-6 py-4 text-right">
-              <div className="text-4xl xl:text-5xl font-extrabold text-accent leading-none">
-                <VisitCounter />
-              </div>
-              <div className="text-xs text-white/60 uppercase tracking-wider mt-2">
-                Visits
-              </div>
-            </div>
-          </div>
-
+        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           {/* title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
@@ -58,8 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Create The Ideas <br /> and{" "}
-            <span className="text-accent">Make it Happen</span>
+            Always Finish<br />Every Task{" "}
+            <span className="text-accent">On Time</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -73,7 +35,7 @@ const Home = () => {
             I'am a Fullstack Developer with experience in web and programable application development through
             internships and involvement in organizations. Proficient in building API-based systems, database
             integration, and end-to-end feature development. Interesting in scalable systems and technology-driven
-            problem-solving
+            problem-solving.
           </motion.p>
 
           {/* btn */}

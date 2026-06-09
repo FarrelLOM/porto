@@ -31,8 +31,8 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              As a fresh graduate in computer science, I am proudly to apply my knowledge and skills in a professional setting.
+               These services are the result of my dedication to learning and my passion for technology.
             </motion.p>
           </div>
 

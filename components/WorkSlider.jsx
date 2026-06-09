@@ -15,22 +15,22 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://myabsen.me/",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://mllamixedmethods.myabsen.me/",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://03b3-8-219-199-181.ngrok-free.app/",
         },
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "http://example.com",
+          link: "https://itplnuaspwl.duckdns.org/",
         },
       ],
     },

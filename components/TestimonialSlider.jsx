@@ -10,24 +10,24 @@ import "swiper/css/pagination";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "UPTD DAS Ciliman - Cisawarna",
+    position: "Internship Manager",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "He has shown great dedication and enthusiasm during his internship at UPTD DAS Ciliman - Cisawarna. He develop the presence recording website that will approve all of the employees presence using AI and geolocation verification. He has been an asset to our team and has contributed significantly to our projects. We highly recommend them for any future opportunities and believe he will have a bright future ahead.",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Language Development Center",
+    position: "LDC Manager",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "He has been an outstanding coordinator leader at the campus Language Development Center, consistently demonstrating a strong work ethic and a willingness to learn. He has contributed significantly to our projects and has shown great potential in the field of language development. We highly recommend him for research and development opportunities.",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "PLN Office Banten Units",
+    position: "Human Resources Affairs",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "He has been a valuable addition to our team at PLN Office Banten Units. His dedication to his work and his ability to collaborate effectively with colleagues have been instrumental in the success of various initiatives. He has completed the task with a high level of professionalism.",
   },
 ];
 
@@ -51,8 +51,8 @@ const TestimonialSlider = () => {
                 <div className="mb-2 mx-auto">
                   <Image
                     src={person.image}
-                    width={100}
-                    height={100}
+                    width={2000}
+                    height={2000}
                     alt={person.name}
                   />
                 </div>

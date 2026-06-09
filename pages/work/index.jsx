@@ -29,8 +29,9 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              Since i study Computer Science, i have been working on various projects, 
+              both personal and collaborative, to enhance my skills and contribute to 
+              the tech community. Here are some of the projects that i have worked on.
             </motion.p>
           </div>
 

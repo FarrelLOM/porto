@@ -1,43 +1,37 @@
 import Link from "next/link";
 
 import {
-  RiYoutubeLine,
-  RiInstagramLine,
-  RiFacebookLine,
-  RiDribbbleLine,
+  RiLinkedinLine,
+  RiWhatsappLine,
+  RiMailLine,
   RiGithubLine,
-  RiPinterestLine,
 } from "react-icons/ri";
+import { FaSteam } from "react-icons/fa";
 
 export const socialData = [
   {
-    name: "YouTube",
-    link: "https://youtube.com",
-    Icon: RiYoutubeLine,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/farrel-laogi-murjitama-2791aa3b8",
+    Icon: RiLinkedinLine,
   },
   {
-    name: "Instagram",
-    link: "https://instagram.com",
-    Icon: RiInstagramLine,
+    name: "Whatsapp",
+    link: "https://wa.me/6289502026501",
+    Icon: RiWhatsappLine,
   },
   {
-    name: "Facebook",
-    link: "https://facebook.com",
-    Icon: RiFacebookLine,
+    name: "Email",
+    link: "mailto:farrellom21@gmail.com",
+    Icon: RiMailLine,
   },
   {
-    name: "Dribbble",
-    link: "https://dribbble.com",
-    Icon: RiDribbbleLine,
-  },
-  {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
+    name: "Steam",
+    link: "https://steamcommunity.com/id/kazharsktan",
+    Icon: FaSteam,
   },
   {
     name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    link: "https://github.com/FarrelLOM",
     Icon: RiGithubLine,
   },
 ];
