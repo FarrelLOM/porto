@@ -89,7 +89,6 @@ modern-portfolio/
   |- cookies.txt
   |- netlify.toml
   |- next.config.js
-  |- package-lock.json
   |- package.json
   |- postcss.config.js
   |- tailwind.config.js
